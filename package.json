@@ -1,0 +1,14 @@
+{
+  "name": "aa-motor-medic-booking",
+  "version": "1.0.0",
+  "description": "AA Motor Medic Staff Booking — Desktop App",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^31.7.7",
+    "electron-builder": "^24.13.3"
+  }
+}

@@ -1,0 +1,28 @@
+appId: com.aamotormedic.booking
+productName: AA Motor Medic Booking
+copyright: AA Motor Medic
+
+directories:
+  output: dist
+
+files:
+  - src/**
+  - assets/**
+  - package.json
+
+win:
+  icon: assets/icon.png
+  target:
+    - target: nsis
+      arch:
+        - x64
+
+nsis:
+  oneClick: true
+  perMachine: false
+  installerIcon: assets/icon.png
+  uninstallerIcon: assets/icon.png
+  shortcutName: "AA Motor Medic Booking"
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  runAfterFinish: true
