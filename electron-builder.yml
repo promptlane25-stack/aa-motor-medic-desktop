@@ -20,8 +20,6 @@ win:
 nsis:
   oneClick: true
   perMachine: false
-  installerIcon: assets/icon.png
-  uninstallerIcon: assets/icon.png
   shortcutName: "AA Motor Medic Booking"
   createDesktopShortcut: true
   createStartMenuShortcut: true
